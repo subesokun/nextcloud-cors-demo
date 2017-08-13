@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>corsdemo</id>
+    <name>C O R S Demo</name>
+    <summary>CORS Demo</summary>
+    <description><![CDATA[CORS Demo :)]]></description>
+    <licence>agpl</licence>
+    <author mail="noreply@nope.nope" >Subesokun</author>
+    <version>0.0.1</version>
+    <namespace>CORSDemo</namespace>
+    <category>integration</category>
+    <bugs>https://gitlab.com/subesokun/nextcloud-cors-demo</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="12"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>C O R S Demo</name>
+            <route>corsdemo.page.index</route>
+        </navigation>
+    </navigations>
+</info>
